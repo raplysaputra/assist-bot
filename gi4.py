@@ -27,40 +27,40 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 #kalo mau login code qr disini pake
-gye = LINE()
-gye.log("Auth Token : " + str(gye.authToken))
-channelToken = gye.getChannelResult()
-gye.log("Channel Token : " + str(channelToken))
+#gye = LINE()
+#gye.log("Auth Token : " + str(gye.authToken))
+#channelToken = gye.getChannelResult()
+#gye.log("Channel Token : " + str(channelToken))
 
-ais = LINE()
-ais.log("Auth Token : " + str(ais.authToken))
-channelToken = ais.getChannelResult()
-ais.log("Channel Token : " + str(channelToken))
+#ais = LINE()
+#ais.log("Auth Token : " + str(ais.authToken))
+#channelToken = ais.getChannelResult()
+#ais.log("Channel Token : " + str(channelToken))
 
-ki2 = LINE()
-ki2.log("Auth Token : " + str(ki2.authToken))
-channelToken = ki2.getChannelResult()
-ki2.log("Channel Token : " + str(channelToken))
+#ki2 = LINE()
+#ki2.log("Auth Token : " + str(ki2.authToken))
+#channelToken = ki2.getChannelResult()
+#ki2.log("Channel Token : " + str(channelToken))
 
-ki3 = LINE()
-ki3.log("Auth Token : " + str(ki3.authToken))
-channelToken = ki3.getChannelResult()
-ki3.log("Channel Token : " + str(channelToken))
+#ki3 = LINE()
+#ki3.log("Auth Token : " + str(ki3.authToken))
+#channelToken = ki3.getChannelResult()
+#ki3.log("Channel Token : " + str(channelToken))
 
-ki4 = LINE()
-ki4.log("Auth Token : " + str(gye.authToken))
-channelToken = ki4.getChannelResult()
-ki4.log("Channel Token : " + str(channelToken))
+#ki4 = LINE()
+#ki4.log("Auth Token : " + str(gye.authToken))
+#channelToken = ki4.getChannelResult()
+#ki4.log("Channel Token : " + str(channelToken))
 
 #kalo mau login menggunakan token
 #gunakan disini hapus tanda pagarnya 
 #yg atas dinpagar atau bisa juga token di atas 
 #di dalam tanda LINE ("TOKEN MU ")
-#gye = LINE("Et6qM8UeTce5bGsZG4te.ee6vQU/1ppqr93nt9QLUZG.b5fsCbuxW7zZRtrK5U/74k/53Abd5dWPxfdtLy9bL9I=")
-#ais = LINE("Etska0dbjsHvPgZKwmj9.EikS5M3O+L4fOqxjjVgLsq.KlWfvmGVaXdM0yvKM8WGKARpcbAbiKVF9yORPt8QBJw=")
-#ki2 = LINE("EtQsqzdJMWn73m72Gup0.OdjJmVnqXLeaZxpJzxDMOa.Z+6ApCht+0H1NeyX50QMD0Yq8oIhYyJ14Yg2yoM/tfc=")
-#ki3 = LINE("EtDOOeYj4Rvl5PVfOEaa.ETpCu8czFapUIJQDqIA82G.tcOaI+VmHhWwMbyDL/7yXupWfdIvUJh80yWzu/UJXp8=")
-#ki4 = LINE("EtWyu42OHWKSaxPHY3yd.jTri3xzV4E2Z1xvWxjTrRq.s1oy5gbYMT2haZV7l6yzV0bp5gONcnu+bGSSJ1mbT0c=")
+gye = LINE("EwUD4j3D4KyEx4bmAjGa.vv3qn3hxFaT/IiAfSnmrcG.QeBFP3LenK3TCvU6xnajuZ5avP/EBdLs+R9aBgMShgI=")
+ais = LINE("Ewc9wQYHx0ssyiI303dc.PlwVZTTm9mw9Pkts9rZiRa.P3B0uGv4awFYcuAOofahzf8cQJmNDRqWGxVUG8Q38Js=")
+ki2 = LINE("EwFv74kO729MosHMjhj9.0d1WAQ8wmtjkeK6REkmaYq.bJBV+frHwQj7ebHZWDs3egHwfr/EzSOsfnt+7UGXvN8=")
+ki3 = LINE("EwCjEOSRaw0Z6jNoSWO9./fzW32N7tbNQJzSNKfMMkq.BGB/PuzWwL/jwEn/EGlodPPFGGFk3CwHVJQaVS1faxo=")
+ki4 = LINE("EwuIVBbz9GlbTsVLxOqb.uTR/oatY419XewF5HmI2gW.NLBrHLjZDA1WjfD5CO6g6Z2G53wE/VwE+d2qptZIwT8=")
 
 KAC = [gye,ais,ki2,ki3,ki4]
 GUE = [ais,ki2,ki3,ki4] # ini jangan luh hapus peak ini fungsi Ciak alias kick
